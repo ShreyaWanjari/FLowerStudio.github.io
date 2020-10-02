@@ -1,0 +1,879 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Products | The Flower Studio
+        </title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1" >
+
+        <!--bootstrap css-->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+        <!--jquery-->
+        <script type="text/javascript" src="bootstrap/js/jquery-3.5.1.min.js"></script>
+
+        <!--bootstrap javascript-->
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+        <!--custom css-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    
+    <body>
+        <!--header-->
+        <div class="navbar navbar navbar-fixed-top" style="background-color: #243937;">
+    <div class="container">
+        <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse"
+                datatarget="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+                    class="icon-bar"></span> </button> <a class="navbar-brand" href="index.php">Flower Studio
+                    </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+               <li><a
+                        href="cart.php" style="background-color:#243937;"><span class="glyphicon glyphicon-shopping-cart"></span> Cart </a></li>
+                <li><a href="settings.php" style="background-color:#243937;"><span class="glyphicon glyphicon-user"></span> Settings</a></li>
+                <li><a href="logout_script.php" style="background-color:#243937;"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li> ?>
+                <li><a href="signup.php" style="background-color:#243937;"><span
+                            class="glyphicon glyphicon-user" ></span> Sign Up</a></li>
+                <li><a href="login.php" style="background-color:#243937;"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+               
+            </ul>
+        </div>
+    </div>
+</div>
+        <!--header end-->
+
+        <div class="container" id="content">
+            <div class="jumbotron">
+                <h1>Welcome to The Flower Studio !!</h1>
+                <p>We have the most beautiful & fragnant flowers in our shop. We have all in one place. so just don't worry and order a flower..</p>
+             </div>
+
+             <div class="row text-center" id="gerbera">
+        <!--list of zerbera-->
+                 <div class="col-md-2 col-sm-6">
+                     <div class="thumbnail">
+                         <img src="white.jpg " style="height:220px;" alt="responsive image">
+                           <div class="caption">
+                                 <h3>White gerbera</h3>
+                                 <p>Price: Rs. 250/bunch </p>
+                                
+                                <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                                <?php
+                          
+                                    <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+
+                           </div>
+                     </div>
+                 </div>
+
+
+                 <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="yellow.jpg" style="height:220px;"  alt="">
+                        <div class="caption">
+                            <h3>Yellow gerbera</h3>
+                            
+                            <p>Price: Rs. 250/bunch </p>
+                           
+                                <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                               
+                                    <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                         
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="orange.jpg"style="height:220px;"  alt="">
+                        <div class="caption">
+                            <h3>Orange gerbera</h3>
+                            <p>Price: Rs. 250/bunch</p>
+                            
+
+                            
+
+                                    <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                          
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="pink.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h3>Pink gerbera</h3>
+                            <p>Price: Rs. 250/bunch</p>
+                           
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                        </div>
+                    </div>
+                </div>
+
+                 
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="red.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h3>Red gerbera</h3>
+                            <p>Price: Rs. 200/bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="redlemon.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h3>Red-Lemon gerbera</h3>
+                            <p>Price: Rs. 250/bunch</p>
+                           
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+         
+
+            <!--list of tulips-->
+            <div class="row text-center" id="tulip">
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="white1.jpg" alt="">
+                        <div class="caption">
+                            <h3>White tulips </h3>
+                            <p>Price: Rs. 700/bunch </p>
+                           
+                            
+                                    <a href="cart-add.php?id=5" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="Yellow1.jpg" style="height:160px;" alt="">
+                        <div class="caption">
+                            <h3>Yellow tulip</h3>
+                            <p>Price: Rs. 700/bunch</p>
+                           
+                            
+                                    <a href="cart-add.php?id=6" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                  
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="Orange2.jpg"style="height:170px;" alt="">
+                        <div class="caption">
+                            <h4>Orange tulip</h4>
+                            <p>Price: Rs. 700/bunch </p>
+                            <?php if (!isset($_SESSION['email'])) { ?>
+                                <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+                               
+                                    <a href="cart-add.php?id=7" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="light pink.jpg" style="height:170px;"alt="">
+                        <div class="caption">
+                            <h4>Light Pink tulip</h4>
+                            <p>Price: Rs. 700/bunch </p>
+                           
+                                    <a href="cart-add.php?id=8" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                        </div>
+                    </div>
+
+                    
+               
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="red1.jpg"style="height:170px;" alt="">
+                        <div class="caption">
+                            <h4>Red tulip</h4>
+                            <p>Price: Rs. 800/bunch </p>
+                            
+                                    <a href="cart-add.php?id=7" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="purple.jpg" style="height:170px;"alt="">
+                        <div class="caption">
+                            <h4>Purple tulip</h4>
+                            <p>Price: Rs. 700/bunch </p>
+                          
+                                    <a href="cart-add.php?id=8" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                        </div>
+                    </div>
+
+                    
+               
+                </div>
+            </div>
+
+            <!-- list of roses-->
+            <div class="row text-center" id="rose">
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="5.jpg" alt="">
+                        <div class="caption">
+                            <h3>White Roses </h3>
+                            <p>Price: Rs. 300/bunch </p>
+                            
+                                    <a href="cart-add.php?id=9" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="yellow2.jpg" alt="">
+                        <div class="caption">
+                            <h3>Yellow Rose</h3>
+                            <p>Price: Rs. 300/bunch</p>
+                           
+                                    <a href="cart-add.php?id=10" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="orange3.jpg" style="height:160px;" alt="">
+                        <div class="caption">
+                            <h3>Orange Roses</h3>
+                            <p>Price:Rs. 300/bunch</p>
+                            
+                                    <a href="cart-add.php?id=11" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="light pink1.jpg" alt="">
+                        <div class="caption">
+                            <h3>Light Pink Roses</h3>
+                            <p>Price Rs. 350/bunch</p>
+                           
+                                    <a href="cart-add.php?id=12" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="pink2.jpg" style="height:180px;" alt="">
+                        <div class="caption">
+                            <h3> Pink Roses</h3>
+                            <p>Price Rs. 320/bunch</p>
+                           
+                            
+                                    <a href="cart-add.php?id=12" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="red2.jpg" style="height:180px;" alt="">
+                        <div class="caption">
+                            <h3> Red Roses</h3>
+                            <p>Price Rs. 350/bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=12" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+               <!--list of peony-->
+               <div class="row text-center" id="peony">
+               <div class="col-md-2 col-sm-6">
+                     <div class="thumbnail">
+                         <img src="white3.jpg " style="height:220px;" alt="responsive image">
+                           <div class="caption">
+                                 <h3>White Peony</h3>
+                                 <p>Price: Rs. 3500 /bunch </p>
+                                 
+                                 
+                                    <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+
+                           </div>
+                     </div>
+                 </div>
+
+
+                 <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="Paley.jpg" style="height:220px;"  alt="">
+                        <div class="caption">
+                            <h3>Pale Yellow Peony</h3>
+                            
+                            <p>Price: Rs. 5000/bunch </p>
+                            
+                            
+                                    <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                         
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="orange5.jpg"style="height:220px;"  alt="">
+                        <div class="caption">
+                            <h3>Orange Peony</h3>
+                            <p>Price: Rs. 3500/bunch</p>
+                          
+                            
+                                    <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                  
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="pink3.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h3> Light Pink Peony</h3>
+                            <p>Price: Rs. 5000/ bunch</p>
+                           
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+                 
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="pink5.jpg" style="height:240px;" alt="">
+                        <div class="caption">
+                            <h3>Pink Peony</h3>
+                            <p>Price: Rs. 3500 / bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="7.jpg" style="height:240px;" alt="">
+                        <div class="caption">
+                            <h3>Red Peony</h3>
+                            <p>Price: Rs. 4000 / bunch</p>
+                           
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+            </div>
+         
+
+            <div class="row text-center" id="ranunculus">
+        <!--list of ranunculus-->
+                 <div class="col-md-2 col-sm-6">
+                     <div class="thumbnail">
+                         <img src="white5.jpg " style="height:220px;" alt="responsive image">
+                           <div class="caption">
+                                 <h3>White ranunculus</h3>
+                                 <p>Price: Rs. 250/bunch </p>
+                                 
+                                 
+                                    <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                           </div>
+                     </div>
+                 </div>
+
+
+                 <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="paley2.jpg" style="height:220px;"  alt="">
+                        <div class="caption">
+                            <h3> Pale Yellow ranunculus</h3>
+                            
+                            <p>Price:Rs. 260/bunch </p>
+                           
+                            
+                                    <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                         
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="yellow3.jpg"style="height:220px;"  alt="">
+                        <div class="caption">
+                            <h3>Yellow ranunculus</h3>
+                            <p>Price: Rs. 250/bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                          
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="orange6.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h3> Orange ranunculus</h3>
+                            <p>Price:Rs. 280/bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                 
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="6.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h3> Pink ranunculus</h3>
+                            <p>Price: Rs. 250/bunch</p>
+                           
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                  
+                                    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="red3.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h3> Red ranunculus</h3>
+                            <p>Price: Rs. 250/bunch</p>
+                           
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+                    
+
+                </div>
+                
+               <!--list of chrysanthemum-->
+               <div class="row text-center" id="chrysanthemum">
+               <div class="col-md-2 col-sm-6">
+                     <div class="thumbnail">
+                         <img src="01.jpg " style="height:220px;" alt="responsive image">
+                           <div class="caption">
+                                 <h4>White chrysanthemum</h4>
+                                 <p>Price: Rs. 250 / bunch </p>
+                                
+                                 
+                                    <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+
+                           </div>
+                     </div>
+                 </div>
+
+
+                 <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="y2.jpg" style="height:220px;"  alt="">
+                        <div class="caption">
+                            <h4> Yellow chrysanthemum</h4>
+                            
+                            <p>Price: Rs. 240 / bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="03.jpg"style="height:220px;"  alt="">
+                        <div class="caption">
+                            <h4>Orange chrysanthemum</h4>
+                            <p>Price: Rs. 200 / bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="05.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h4> Light Pink chrysanthemum</h4>
+                            <p>Price: Rs. 220 / bunch</p>
+                           
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                 
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="07.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h4> Red chrysanthemum</h4>
+                            <p>Price: Rs. 300 / bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                  
+                                    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="06.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h4> Purple chrysanthemum</h4>
+                            <p>Price: Rs. 250 / bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+
+                </div>
+                
+
+                
+            </div>
+            
+               <!--list of stock-->
+               <div class="row text-center" id="stock">
+               <div class="col-md-2 col-sm-6">
+                     <div class="thumbnail">
+                         <img src="001.jpg " style="height:220px;" alt="responsive image">
+                           <div class="caption">
+                                 <h3>White stock</h3>
+                                 <p>Price: Rs. 120 / piece</p>
+                                
+                                 
+                                    <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                           </div>
+                     </div>
+                 </div>
+
+
+                 <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="003.jpg" style="height:200px;"  alt="">
+                        <div class="caption">
+                            <h3>Pale Yellow stock</h3>
+                            
+                            <p>Price: Rs. 150 /piece </p>
+                           
+                            
+                                    <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="002.jpg"style="height:200px;"  alt="">
+                        <div class="caption">
+                            <h3>Yellow stock</h3>
+                            <p>Price: Rs. 150 /piece </p>
+                          
+                            
+                                    <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="004.jpg" style="height:200px;" alt="">
+                        <div class="caption">
+                            <h3> Cream stock</h3>
+                            <p>Price:Rs. 130 /piece 0</p>
+                        
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                  
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                 
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="3.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h3>Pink stock</h3>
+                            <p>Price: Rs. 150 /piece </p>
+                           
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="005.jpg" style="height:190px;" alt="">
+                        <div class="caption">
+                            <h3>Dark pink stock</h3>
+                            <p>Price: Rs. 150 /piece </p>
+                           
+                            
+                                 
+                                 
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+            </div>
+         
+
+               <!--list of gladioli-->
+               <div class="row text-center" id="gladioli">
+               <div class="col-md-2 col-sm-6">
+                     <div class="thumbnail">
+                         <img src="8.jpg " style="height:220px;" alt="responsive image">
+                           <div class="caption">
+                                 <h3>White gladioli</h3>
+                                 <p>Price: Rs 150 /bunch </p>
+                                
+                                 
+                                    <a href="cart-add.php?id=1" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                  
+                                    
+
+                           </div>
+                     </div>
+                 </div>
+
+
+                 <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="007.jpg" style="height:220px;"  alt="">
+                        <div class="caption">
+                            <h3>Yellow gladioli</h3>
+                            
+                            <p>Price: Rs 150 /bunch </p>
+                           
+                            
+                                    <a href="cart-add.php?id=2" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 ">
+                    <div class="thumbnail">
+                        <img src="008.jpg"style="height:220px;"  alt="">
+                        <div class="caption">
+                            <h3>Orange gladioli</h3>
+                            <p>Price:Rs 180 /bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=3" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                  
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="009.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h3> Light Pink gladioli</h3>
+                            <p>Price: Rs 120 /bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+                </div>
+
+                 
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="0010.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h3>Red-white gladioli</h3>
+                            <p>Price:Rs 160 /bunch</p>
+                            
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                    
+                                    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="col-md-2 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="0011.jpg" style="height:220px;" alt="">
+                        <div class="caption">
+                            <h3>Purple gladioli</h3>
+                            <p>Price: Rs 140 /bunch</p>
+                           
+                            
+                                    <a href="cart-add.php?id=4" name="add" value="add" class="btn btn-block btn-primary">Add to cart</a>
+                                   
+                                    
+                        </div>
+                    </div>
+
+                </div>
+
+                
+            </div>
+         
+
+         
+
+            </div>
+         
+
+            
+            <hr>
+        </div>
+
+        <footer>
+        <div class="container" >
+            <center>
+                <p>Copyright &copy; Flower Hut. All Rights Reserved | Contact Us: +91 90000 00000</p>
+            </center>
+        </div>
+    </footer>
+        </body>
+</html> 
